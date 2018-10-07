@@ -29,3 +29,16 @@ Check your helm releases:
 ```
 helm ls
 ```
+
+## Custom your Prometheus/Grafana set up:
+I access both GUIs by creating a simple NodePort K8s Service (I'm testing, I don't need/want an ELB and the costs that implies):
+
+Exposing Prometheus via NodePort:
+```
+kubectl -f prometheus-service.yaml apply
+```
+Exposing Grafana via NodePort:
+```
+kubectl -f grafana-service.yaml apply
+```
+
