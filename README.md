@@ -1,4 +1,4 @@
-# Prometheus
+# Prometheus/Grafana for Kubernetes
 Prometheus/Grafana from Helm charts to monitor K8s cluster:
 
 ![Image description](https://github.com/pulpbill/Prometheus/blob/master/grafana-prom.png)
