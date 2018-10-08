@@ -4,7 +4,7 @@ metadata:
   name: test-grafana
 spec:
   selector:
-    app: test-grafana
+    app: grafana
   type: NodePort
   ports:
     - port: 443
