@@ -72,9 +72,11 @@ Now, let's add a Dashboard
 - Go to the plus sing at the left panel and choose "Import" 
 - You can go pick one at : https://grafana.com/dashboards?dataSource=prometheus&search=Kubernetes
 - You just add the ID of a Dashboard right below "Grafana.com Dashaboard"
-  - IE: https://grafana.com/dashboards/6663 
-  - You would add 6663 and hit "Load" 
+  - IE: https://grafana.com/dashboards/3119
+  - You would add 3119 and hit "Load" 
   - At the next screen, you only must specify a "Datasource" for "Prometheus" (we named it "Kubernetes" here) and hit "Import"
   
 You can always create your own Grafana Dashboards or customize an existing one.
-
+#### Important:
+While picking a Grafana Dashboard, check for "Dependencies:" at the right. Let's say one it's build for InfluxDB stats, that won't work for this case.
+Recommended Dashboards: 3119 - 315 - 6663 - 1621 
