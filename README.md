@@ -1,5 +1,7 @@
 # Prometheus
-Prometheus/Grafana from Helm charts to monitor K8s cluster
+Prometheus/Grafana from Helm charts to monitor K8s cluster:
+
+![Image description](https://github.com/pulpbill/Prometheus/blob/master/grafana-prom.png)
 
 ### Note:
 This guide asumes that you have a running K8s cluster and helm installed (We'll be using helm's charts)
