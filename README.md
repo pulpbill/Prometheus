@@ -35,10 +35,10 @@ I access both GUIs by creating a simple NodePort K8s Service (I'm testing, I don
 
 Exposing Prometheus via NodePort:
 ```
-kubectl -f prometheus-service.yaml apply
+kubectl -f https://raw.githubusercontent.com/pulpbill/Prometheus/master/prometheus-service.yaml apply
 ```
 Exposing Grafana via NodePort:
 ```
-kubectl -f grafana-service.yaml apply
+kubectl -f https://raw.githubusercontent.com/pulpbill/Prometheus/master/grafana-service.yaml apply
 ```
 
